@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+#lamp-counter {
+    font-size: 30pt !important /* Adjust the font size to your preference */
+}
+
+#cost-counter {
+    font-size: 30pt; /* Adjust the font size for the cost counter as well */
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+.relative-container {
+    position: relative;
+}
+
+.image-button {
+    position: absolute;
+    width: 150px; /* Adjust the width and height according to your image dimensions */
+    height: 150px;
+    border: none;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+img {
+    max-height: 100%;
+}
+
+.image-button {
+    background-size: cover;
+}
+
+/* Add the following styles to your existing CSS */
+
+#lamp-counter {
+    font-size: 16px; /* Set the desired font size */
+}
+
